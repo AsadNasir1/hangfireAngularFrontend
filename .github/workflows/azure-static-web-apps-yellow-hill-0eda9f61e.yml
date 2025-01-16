@@ -32,7 +32,7 @@ jobs:
           app_location: "/"
           api_location: ""
           output_location: "dist/net-hangfire-front-end"
-          app_build_command: "npm install --legacy-peer-deps && npm run build"
+          app_build_command: "npm install --legacy-peer-deps && npm install @angular/localize --legacy-peer-deps && npm run build"
           ###### End of Repository/Build Configurations ######
 
   close_pull_request_job:
